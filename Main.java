@@ -111,7 +111,8 @@ public class Main {
     private boolean createAccount() {
         Account tempAccount;
         Scanner reader = new Scanner(System.in);
-        String username, name, dob;
+        String username = "";
+        String name, dob;
         boolean x = false;
         while (x == false) {
             System.out.println("User Name? ");
